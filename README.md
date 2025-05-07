@@ -38,9 +38,9 @@ TIME_HOURS=12
 ```
 ### 5. Copy `O2VSCode.py` to your local home folder
 Remember to modify the following:
-`USERNAME`: your O2 account
-`SSH_CONFIG_PATH`: the path to your VSCode ssh config file
-default value doe `--dir`: The default O2 directory to connect to first
+* `USERNAME`: your O2 account
+* `SSH_CONFIG_PATH`: the path to your VSCode ssh config file
+* default value of `--dir`: The default O2 directory to connect to initially
 
 Once set up, running `python O2VSCode.py` will automatically request a new O2 session for you and connect VSCode to the requested session
 
